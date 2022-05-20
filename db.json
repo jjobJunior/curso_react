@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Projeto 3",
-      "budget": "15000",
+      "name": "Projeto Editado",
+      "budget": "15199",
       "category": {
         "id": "3",
         "name": "Infra"
@@ -12,8 +12,8 @@
       "id": 3
     },
     {
-      "name": "Contratações",
-      "budget": "30000",
+      "name": "Contratações de funcionários ",
+      "budget": "17580",
       "category": {
         "id": "4",
         "name": "Planejamento"
@@ -21,6 +21,17 @@
       "cost": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "name": "Formação ORACLE",
+      "budget": "55000",
+      "category": {
+        "id": "1",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
     }
   ],
   "categories": [

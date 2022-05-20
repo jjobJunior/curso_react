@@ -23,20 +23,22 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     }, [])
 
     const submit = (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         handleSubmit(project)
     }
 
-    function handleChange(e){
+    function handleChange(e) {
         setProject({ ...project, [e.target.name]: e.target.value })
     }
 
     function handleCategory(e) {
-        setProject({ ...project, category:{
-            id: e.target.value,
-            name: e.target.options[e.target.selectedIndex].text,
+        setProject({
+            ...project, category: {
+                id: e.target.value,
+                name: e.target.options[e.target.selectedIndex].text,
 
-        } })
+            }
+        })
     }
 
 
@@ -57,10 +59,10 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 value={project.budget ? project.budget : ''}
             />
             <Select name="categoria_id"
-            text="Selecione a categoria"
-            options={categories}
-            handleOnChange={handleCategory}
-            value={project.category ? project.category.id : ''}
+                text="Selecione a categoria"
+                options={categories}
+                handleOnChange={handleCategory}
+                value={project.category ? project.category.id : ''}
             />
             <SubmitButton text={btnText} />
         </form>
