@@ -18,8 +18,21 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2250,
+      "services": [
+        {
+          "name": "Processo seletivo",
+          "cost": "250",
+          "description": "recrutamento de novos funcionários",
+          "id": "b4500ab5-ca39-4c9d-8e41-40f3c700e25b"
+        },
+        {
+          "name": "Programador",
+          "cost": "2000",
+          "description": "Programador React",
+          "id": "8683df4b-9b2f-41b1-a95e-1dba450d1dbe"
+        }
+      ],
       "id": 4
     },
     {
